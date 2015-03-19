@@ -27,6 +27,8 @@ class Perceptron(object):
 			self.weights[i] += error * self.inputs[i]
 			i+=1
 
+#Uncomment following section when steering file is not used
+"""
 def f(x):
 	return 2*x + 1
 
@@ -68,3 +70,4 @@ pointx = np.linspace(-15, 15, 100)
 pointy = f(pointx)
 plt.plot(pointx, pointy)
 plt.show()
+"""
