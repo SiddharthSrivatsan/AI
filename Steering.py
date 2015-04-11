@@ -101,7 +101,7 @@ class Vehicle(object):
 	desired = vector
 	error = vector.sub(desired, self.location)
 	self.brain.train(forces, error)
-
+"""
 vehicle = Vehicle(2, 0, 0)
 plt.scatter(vehicle.location.returnX(), vehicle.location.returnY(),
 	    c = 'blue', s=150)
@@ -128,4 +128,4 @@ plt.scatter(vehicle.location.returnX(), vehicle.location.returnY(), c = 'green',
 now = time.time()
 future = now + 5
 while time.time() < future:
-  plt.draw()
+  plt.draw()"""
